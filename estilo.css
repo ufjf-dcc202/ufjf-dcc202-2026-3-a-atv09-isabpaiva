@@ -14,3 +14,14 @@ main > article {
     resize: both;
     overflow: scroll;
 }
+
+main > article {
+    display: grid;  
+    place-items: center;
+    height: 100vh;
+}
+
+h1 {
+    background-color: rgb(177, 255, 60);
+    color: purple;
+}
