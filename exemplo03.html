@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DCC 202 | Atividade 09 - Sidebar </title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul>li { 
+            border: 1px solid rgb(43, 66, 7);
+            background-color: greenyellow;
+        }
+
+    .desconstructed-pancake{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .desconstructed-pancake>* {
+        flex: 1 1 120px;
+    }
+
+    .sidebar-say {
+        display: grid;
+        grid-template-columns: minmax(100px, 20%) 1fr;
+    }
+
+     </style>
+</head>
+<body>
+    <main>
+        <article class="sidebar-say">
+            <section>
+            <ul>
+                <li> Arthur </li>
+                <li> Giovanna </li>
+                <li> Isabella </li>
+                <li> Laura </li>
+            </ul>
+            </section> 
+            <section> 
+                Maravilhosos da turma DCC202!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse est temporibus deleniti. 
+                Repellat distinctio beatae ipsam repellendus accusantium? 
+                Error aut impedit totam vitae autem iusto odit neque commodi odio laudantium!
+            </section>
+        </article>
+    </main>
+</body>
+</html>
