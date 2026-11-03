@@ -4,7 +4,7 @@ body {
 }
 
 main {
-    display: grid;  
+    display: flex;  
     place-items: center;
     height: 100vh;
 } 
@@ -15,13 +15,8 @@ main > article {
     overflow: auto;
 }
 
-main > article {
+main  {
     display: grid;  
     place-items: center;
     height: 100vh;
-}
-
-h1 {
-    background-color: rgb(177, 255, 60);
-    color: purple;
 }
