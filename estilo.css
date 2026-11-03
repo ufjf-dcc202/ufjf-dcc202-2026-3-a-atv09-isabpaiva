@@ -12,7 +12,7 @@ main {
 main > article {
     border: 1px solid palevioletred;
     resize: both;
-    overflow: scroll;
+    overflow: auto;
 }
 
 main > article {
